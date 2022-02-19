@@ -1,19 +1,20 @@
-.nav-box {
+.nav-div {
     position: fixed;
     top: 0;
     z-index: 9999;
-}
-
-.nav-cta-icon {
-    position: relative;
+    padding: 1rem;
 }
 
 .nav-items {
     margin-top: 5px;
 }
 
-.number-sm-badge {
-    top: -10px;
+.nav-link-box {
+    width: 10rem;
+}
+
+.user-icon {
+    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 864px) {
@@ -29,9 +30,5 @@
 @media only screen and (max-width: 540px) {
     .mobile-hidden {
         display: none;
-    }
-
-    .number-sm-badge {
-        top: -7px;
     }
 }
