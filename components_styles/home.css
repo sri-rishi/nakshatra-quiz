@@ -27,8 +27,37 @@
     color: var(--yellow-color);
 }
 
+.category-box {
+    width: 80%;
+}
+
+.category-items {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 4px var(--light-gray-color);
+    font-weight: 600;
+    transition: all .2s ease-in-out; 
+}
+
+.new-div-img {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-cont {
+    position: absolute;
+    bottom: 1rem;
+    color: var(--lighter-yellow-color);
+} 
+
+.category-items:hover {
+    transform: scale(1.1);
+}
+
 .footer-box {
-    margin-top: 4rem; 
+    margin-top: 8rem; 
     width: 100%;
     font-size: 2rem;
     font-weight: 600;
