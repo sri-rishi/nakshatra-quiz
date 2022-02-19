@@ -17,7 +17,7 @@
     font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 864px) {
+@media only screen and (max-width: 54em) {
     .nav-items-box {
         display: flex;
     }
@@ -27,8 +27,13 @@
     }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 34em) {
     .mobile-hidden {
         display: none;
+    }
+
+    .nav-link-box {
+        justify-content: center;
+        width: 4rem;
     }
 }
