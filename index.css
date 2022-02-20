@@ -1,2 +1,4 @@
 @import url(./style_guide/style_guid.css);
 @import url(./components_styles/home.css);
+@import url(./components_styles/quiz-template.css);
+@import url(./components_styles/quiz-category.css);
