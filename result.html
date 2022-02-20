@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://nakshatra-ui.netlify.app/lib/components.css">
+    <link rel="stylesheet" href="../index.css">
+    <title>Result</title>
+</head>
+<body>
+    <nav class="nav-box nav-div flex-row align-center">
+        <div class="nav-section flex-row align-center justify-evenly">
+            <div class="hamburger display-none btn-border-none bg-transparent">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="brand-title">
+                <a href="#">
+                    <div class="title font-weight-3">
+                        nakshatra <span class="sub-title">Quiz</span>
+                    </div>
+                </a>
+            </div>
+            <ul class="flex-row nav-cta-box nav-items-box align-center justify-evenly">
+                <li class="nav-items">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#">Dashboard</a>
+                </li>
+            </ul>
+        </div>
+    
+        <ul class="nav-link-items nav-link-box flex-row align-center justify-around">
+            <li class="nav-items mobile-hidden">
+                <a class="btn-login" href="#">
+                    <button class="btn btn-primary">Login</button>
+                </a>
+            </li>
+            <li class="nav-items user-icon">
+                <a href="#">
+                    <i class="fas fa-user-alt"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="quiz-template-main flex-column justify-center align-center">
+        <h3 class="xmd-heading">Result</h3>
+        <p class="xsm-heading">Final Score: -10/50</p>
+        <div class="flex-column gap-2 ques-box font-weight-5">
+            <p class="xsm-heading">What is the favorite camera choice among professional bird photographers?</p>
+            <div class="flex-column gap-1">
+                <button class="ans bg-transparent right-ans card-shadow">Canon</button>
+                <button class="ans bg-transparent">Nikon</button>
+                <button class="ans bg-transparent wrong-ans card-shadow">Sony</button>
+                <button class="ans bg-transparent">None the above</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html
