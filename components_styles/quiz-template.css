@@ -20,6 +20,7 @@
     border: 2px solid var(--light-gray-color); 
     border-radius: 10px;
     font-weight: inherit;
+    text-align: center;
     color: var(--gray-color);
     padding: 10px;
 }
@@ -34,4 +35,10 @@
     background: var(--red-color);
     border-color: var(--red-color);
     color: var(--white-color);
+}
+
+@media only screen and (max-width: 32em) {
+    .ques-box {
+        width: 25rem;
+    }
 }

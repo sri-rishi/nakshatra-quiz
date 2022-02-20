@@ -54,10 +54,21 @@
             </div>
             <p class="xsm-heading">What is the favorite camera choice among professional bird photographers?</p>
             <div class="flex-column gap-1">
-                <button class="ans bg-transparent right-ans card-shadow">Canon</button>
-                <button class="ans bg-transparent">Nikon</button>
-                <button class="ans bg-transparent wrong-ans card-shadow">Sony</button>
-                <button class="ans bg-transparent">None the above</button>
+                <label for="ans-canon" class="ans bg-transparent right-ans card-shadow">
+                    <input type="radio" class="display-none" id="ans-canon" name="ans-canon"/>
+                    Canon
+                </label>
+                <label for="ans-nikon" class="ans bg-transparent">
+                    <input type="radio" class="display-none" id="ans-nikon" name="ans-nikon"/>
+                    Nikon
+                </label>
+                <label for="ans-sony" class="ans bg-transparent wrong-ans card-shadow" >
+                    <input type="radio" class="display-none" id="ans-sony" name="ans-sony"/>
+                    Sony
+                </label>
+                <label for="ans-none" class="ans bg-transparent">
+                    <input type="radio" class="display-none" id="ans-none" name="ans-none"/>None the above
+                </label>
             </div>
         </div>
     </main>
