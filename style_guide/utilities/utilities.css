@@ -51,3 +51,7 @@
 .form-cta {
     width: 100%;
 }
+
+.hamburger {
+    cursor: pointer;
+}
