@@ -56,6 +56,50 @@
     transform: scale(1.1);
 }
 
+.quiz-div {
+    width: 23rem;
+    grid-template-rows: auto auto;
+    border-radius: 20px;
+    background: var(--white-color);
+}
+
+.quiz-div:hover {
+    box-shadow: 0 0 16px 4px var(--light-gray-color)
+}
+
+.quiz-desc {
+    padding: 1rem;
+    font-size: 1.3rem;
+    justify-content: space-between;
+}
+
+.pQuiz-img-cont {
+    max-height: 12rem;
+    height: 100%;
+}
+
+.quiz-div-img {
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.btn-play-quiz {
+    background: var(--yellow-color);
+}
+
+.btn-play-quiz:hover {
+    background: transparent;
+    border: 2px solid var(--yellow-color);
+    color: var(--yellow-color);
+    box-shadow: 0 0 8px 4px var(--yellow-color);
+}
+
+.quiz-badge {
+    background-color: var(--primary-dark-color);
+}
+
 .footer-box {
     margin-top: 8rem; 
     width: 100%;
