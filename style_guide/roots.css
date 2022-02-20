@@ -10,10 +10,6 @@ body {
     background: var(--whitesmoke-color);
 }
 
-a {
-    cursor: pointer;
-}
-
 :root {
     --primary-color: rgb(7, 172, 248);
     --secondary-color: rgb(32, 30, 30);
